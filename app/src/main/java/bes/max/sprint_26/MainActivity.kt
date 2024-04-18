@@ -10,6 +10,8 @@ import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
+import bes.max.sprint_26.contactdetails.ui.ContactDetailsScreenContent
+import bes.max.sprint_26.contactdetails.ui.testModel1
 import bes.max.sprint_26.ui.theme.Sprint_26Theme
 
 class MainActivity : ComponentActivity() {
@@ -22,7 +24,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    Greeting("Android")
+                    ContactDetailsScreenContent(testModel1)
                 }
             }
         }

@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">Sprint_26</string>
+    <string name="phone">Телефон:</string>
+    <string name="address">Адрес:</string>
+    <string name="email">E-mail:</string>
+    <string name="contact_avatar">Avatar of %1$s</string>
+    <string name="contact_fav_icon">Contact favorite icon</string>
 </resources>
