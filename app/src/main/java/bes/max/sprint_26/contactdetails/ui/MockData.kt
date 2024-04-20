@@ -21,5 +21,4 @@ val testModel2 = ContactModel(
     isFavorite = false,
     phone = "?????",
     address = "Android, Google",
-    email = "sabaka@domen.net",
 )
