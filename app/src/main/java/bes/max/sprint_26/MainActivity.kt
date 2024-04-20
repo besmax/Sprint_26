@@ -9,6 +9,7 @@ import androidx.compose.material3.Surface
 import androidx.compose.ui.Modifier
 import bes.max.sprint_26.contactdetails.ui.ContactDetailsScreenContent
 import bes.max.sprint_26.contactdetails.ui.testModel1
+import bes.max.sprint_26.contactdetails.ui.testModel2
 import bes.max.sprint_26.ui.theme.Sprint_26Theme
 
 class MainActivity : ComponentActivity() {
@@ -25,7 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    ContactDetailsScreenContent(testModel1)
+                    ContactDetailsScreenContent(testModel2)
                 }
             }
         }

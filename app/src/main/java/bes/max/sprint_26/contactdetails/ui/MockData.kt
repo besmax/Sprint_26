@@ -15,10 +15,9 @@ val testModel1 = ContactModel(
 
 val testModel2 = ContactModel(
     name = "View",
-    surname = "Androidovich",
     familyName = "Old",
     imageRes = R.drawable.avatar,
     isFavorite = false,
-    phone = "?????",
+    phone = "---",
     address = "Android, Google",
 )
